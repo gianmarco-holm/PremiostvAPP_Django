@@ -97,10 +97,13 @@ I have created an application where you can vote for your favorite television pr
 
   
 
-<br/>  
-<img src="https://giphy.com/embed/xceKKVCIefUD9EzbEK" align="center" style="width: 50%" />
+<br/> 
+<div align="center">
 
-  
+![Appweb Premios TV](https://github.com/gianmarco-holm/App_PremiosTV_Django/blob/main/giphy%20(1).gif)
+
+</div>
+
 <br/>  
 
 
