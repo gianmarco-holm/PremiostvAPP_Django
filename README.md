@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
+<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 50%" />
 </div>  
   
 
@@ -98,10 +98,9 @@ I have created an application where you can vote for your favorite television pr
   
 
 <br/>  
+<img src="https://giphy.com/embed/xceKKVCIefUD9EzbEK" align="center" style="width: 50%" />
 
-(<iframe src="https://giphy.com/embed/xceKKVCIefUD9EzbEK" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/python-django-gianmarcoholm-xceKKVCIefUD9EzbEK">via GIPHY</a></p>)  
   
-
 <br/>  
 
 
