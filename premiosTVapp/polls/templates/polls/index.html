@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'polls/reset.css' %}" />
+    <link rel="stylesheet" href="{% static 'polls/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'polls/index.css' %}" />
+    <title>Questions</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="h1">Premios TV app</h1>
+    </header>
+    <main class="main">
+      {% if latest_question_list %}
+      <ul>
+        {% for question in latest_question_list %}
+        <li class="color-change-2x">
+          <a href="{% url 'polls:detail' question.id %}">
+            {{ question.question_text }}
+          </a>
+          {% comment %} polls sale del app_name y detail sale del name de la
+          vista en urls.py {% endcomment %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p>No polls are available.</p>
+      {% endif %}
+    </main>
+    <footer class="footer">
+      <a href="https://www.linkedin.com/in/gianmarco-holm/">Contacto</a>
+      <a href="#">Acerca de</a>
+      <a href="#">Política de privacidad</a>
+      <a href="#">Términos y condiciones</a>
+    </footer>
+  </body>
+</html>
